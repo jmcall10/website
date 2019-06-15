@@ -4,23 +4,16 @@
 		<meta charset="utf-8">
 		<title>This is the new title</title>
 		<style>
-			body {
-				-webkit-animation: colorchange 60s infinite; 
-    			animation: colorchange 60s infinite;
-    		}
-@-webkit-keyframes colorchange {
-     0%  {background: #33FFF3;}
-    25%  {background: #78281F;}
-    50%  {background: #117A65;}
-    75%  {background: #DC7633;}
-    100% {background: #9B59B6;}
+			html {
+    min-height: 100%;
 }
-@keyframes colorchange {
-     0%  {background: #33FFF3;}
-    25%  {background: #78281F;}
-    50%  {background: #117A65;}
-    75%  {background: #DC7633;}
-    100% {background: #9B59B6;}
+ 
+body {
+    background: -webkit-linear-gradient(left, #93B874, #C9DCB9); 
+    background: -o-linear-gradient(right, #93B874, #C9DCB9);
+    background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
+    background: linear-gradient(to right, #93B874, #C9DCB9); 
+    background-color: #93B874; 
 }
 		</style>
 	</head>
@@ -32,6 +25,6 @@
 		<h4>Heading4</h4>
 		<p>Testing 'p' tag stuff</p>
 
-		<img src="images/icon2.jpg" alt="">
+		<img src="images/icon3.png" alt="">
 	</body>
 </html>
