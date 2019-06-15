@@ -1,6 +1,6 @@
 function imageEnlarge() {
- document.getElementById('1').style.height="100%";
- document.getElementById('1').style.width="100%";
+ document.getElementById('1').style.height="90%";
+ document.getElementById('1').style.width="90%";
  document.getElementById('1').style.position='absolute';
  }
 function imageReset() {
